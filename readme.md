@@ -6,7 +6,7 @@ This project presents an open and publicly documented concept for an autonomous 
 
 The idea is released into the **public domain** by the author, Kasun Miuranga, to ensure that no individual or entity can restrict its use through patents. Anyone is free to build upon or develop this idea.
 
-👉 **Read the full concept page here:**  [View Concept Page](https://themiu.github.io/AI-Powered-Tea-Leaf-Harvesting-Drone-Swarm-Concept/)
+👉 **Read the full concept page here:**  [View Concept Page](https://themiu.github.io/ai-tea-leaf-drone-swarm/)
 
 ---
 
