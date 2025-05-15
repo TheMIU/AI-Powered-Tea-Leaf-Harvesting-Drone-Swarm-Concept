@@ -1,0 +1,30 @@
+body {
+    line-height: 1.7;
+    margin: 40px auto;
+    max-width: 800px;
+    padding: 0 20px;
+    background-color: #ebebeb;
+    color: #2c2c2c;
+    font-size: 17px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+}
+
+
+h1,
+h2 {
+    color: #006400;
+}
+
+.section {
+    margin-bottom: 30px;
+
+    img {
+        width: 100%;
+    }
+}

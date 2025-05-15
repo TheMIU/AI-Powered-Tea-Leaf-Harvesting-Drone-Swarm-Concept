@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Public domain concept for an AI-powered tea leaf harvesting drone swarm. Designed by Kasun Miuranga.">
+    <meta property="og:title" content="AI-Powered Tea Leaf Drone Swarm Concept">
+    <meta property="og:description"
+        content="Open and publicly documented idea for automated tea harvesting using AI-powered drones.">
+
+    <title>AI-Powered Tea Leaf Harvesting Drone Swarm Concept</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Lora&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="section">
+        <h1>AI-Powered Tea Leaf Harvesting Drone Swarm Concept</h1>
+        <img src="img/img1.jpg" alt="AI-Powered Tea Leaf Harvesting Drone Swarm Concept">
+    </div>
+
+    <div class="section">
+        <strong>Author:</strong> Kasun Miuranga<br>
+        <strong>Date of Public Disclosure:</strong> May 15, 2025
+    </div>
+
+    <div class="section">
+        <h2>Table of Contents</h2>
+        <ul>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#technical">Technical Details</a></li>
+            <li><a href="#challenges">Challenges</a></li>
+            <li><a href="#public-domain">Public Domain Declaration</a></li>
+            <li><a href="#acknowledgment">Authorship and Acknowledgment</a></li>
+        </ul>
+    </div>
+
+
+    <div class="section" id="description">
+        <h2>Description</h2>
+        <p>
+            This concept envisions a lightweight drone system capable of autonomously detecting and
+            harvesting tea leaves using an AI-powered vision system. Each drone is equipped with a
+            high-resolution camera or sensor, a small robotic cutter or plucking mechanism, and a lightweight
+            bag to collect harvested leaves.
+        </p>
+        <p>
+            The drone identifies suitable tea leaves, cuts or plucks them, and stores them in its onboard
+            collection bag. Once full, the drone autonomously returns to a central collection station to offload the
+            leaves before resuming its task.
+        </p>
+        <p>
+            Multiple drones operate together in a swarm-like manner, inspired by the behavior of <b>bees collecting
+                nectar.</b> They are coordinated by a central wireless program that manages flight paths, load levels,
+            and coverage areas.
+        </p>
+        <p>
+            This system is designed to be energy-efficient, scalable, and capable of operating across large tea
+            plantations, reducing human labor while ensuring precision harvesting.
+        </p>
+    </div>
+
+    <div class="section" id="technical">
+        <h2>Technical Details</h2>
+
+        <h3>Drone Specifications</h3>
+        <ul>
+            <li><strong>AI Vision System:</strong> High-resolution camera with onboard AI model (e.g., YOLOv8 or
+                similar) for detecting mature tea leaves.</li>
+            <li><strong>Cutting Mechanism:</strong> Lightweight robotic arm or plucking tool to gently harvest tea
+                leaves.</li>
+            <li><strong>Storage Bag:</strong> Small onboard collection bag made from ultra-light materials.</li>
+            <li><strong>Navigation:</strong> GPS + visual SLAM (Simultaneous Localization and Mapping) for real-time
+                location and obstacle avoidance.</li>
+            <li><strong>Communication:</strong> Wireless module (Wi-Fi/LoRa/Zigbee) to sync with the central system.
+            </li>
+            <li><strong>Power:</strong> Rechargeable lithium-polymer battery with optional solar assist.</li>
+        </ul>
+
+        <h3>Centralized Control System</h3>
+        <ul>
+            <li><strong>Swarm Management Software:</strong> Central AI program to coordinate drone movements, assign
+                zones, and avoid overlap.</li>
+            <li><strong>Load Monitoring:</strong> Real-time status updates of each drone's bag capacity, battery level,
+                and location.</li>
+            <li><strong>Return Protocol:</strong> Autonomous return and unload behavior triggered when the bag is full
+                or battery is low.</li>
+            <li><strong>Data Dashboard:</strong> Interface for operators to monitor swarm activity, efficiency, and
+                harvest status.</li>
+        </ul>
+
+        <h3>Collection & Charging Hub</h3>
+        <ul>
+            <li><strong>Landing Pads:</strong> Drones land on pads that connect to the unloading system and charging
+                port.</li>
+            <li><strong>Charging System:</strong> Fast charging docks or inductive wireless charging pads.</li>
+            <li><strong>Tea Storage:</strong> Central bin or collector where leaves are stored after unloading.</li>
+        </ul>
+
+        <h3>Software Stack</h3>
+        <ul>
+            <li><strong>Drone Firmware:</strong> Lightweight, real-time operating system (RTOS) for stability and
+                responsiveness.</li>
+            <li><strong>AI Model:</strong> Trained object detection neural network (optimized for edge devices).</li>
+            <li><strong>Central Software:</strong> Python/C++ application with MQTT or WebSocket communication protocol.
+            </li>
+            <li><strong>Dashboard:</strong> Web-based dashboard (React or Vue) with map view and live telemetry.</li>
+        </ul>
+
+        <h3>Potential Enhancements</h3>
+        <ul>
+            <li>Weather adaptation system using sensors or online API data.</li>
+            <li>Automatic zone reallocation based on plant density.</li>
+            <li>Integration with agricultural databases for crop health analysis.</li>
+            <li>Swarm learning: drones improve over time by sharing learning data with each other.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="challenges">
+        <h2>Challenges</h2>
+
+        <h3>1. AI Leaf Detection Accuracy</h3>
+        <p>
+            Training an AI model to reliably identify mature tea leaves in varied lighting and weather conditions
+            requires a large, well-labeled dataset. Accuracy must be high to avoid harvesting immature or damaged
+            leaves, which could reduce tea quality.
+        </p>
+
+        <h3>2. Precision Harvesting Mechanism</h3>
+        <p>
+            Designing a lightweight yet effective plucking or cutting tool is technically challenging. The mechanism
+            must be delicate enough not to harm the plant while being durable and efficient in repetitive action.
+        </p>
+
+        <h3>3. Power and Battery Limitations</h3>
+        <p>
+            Drones require sufficient power to fly, process AI computations, and operate harvesting tools. Balancing
+            flight time with payload and operational power is a major engineering hurdle.
+        </p>
+
+        <h3>4. Swarm Coordination</h3>
+        <p>
+            Managing multiple drones simultaneously without collisions or redundant coverage demands a robust central
+            coordination system and reliable real-time communication. Swarm logic needs to be fault-tolerant and
+            efficient.
+        </p>
+
+        <h3>5. Field Navigation and Obstacle Avoidance</h3>
+        <p>
+            Navigating complex terrain, varying plant heights, and unpredictable obstacles like birds or weather
+            conditions requires a combination of sensors (e.g., LiDAR, ultrasonic, vision) and intelligent pathfinding
+            algorithms.
+        </p>
+
+        <h3>6. Central Hub Design</h3>
+        <p>
+            Creating an efficient central collection and charging station that allows quick and automated unloading and
+            recharging while handling many drones is a significant system design task.
+        </p>
+
+        <h3>7. Cost and Scalability</h3>
+        <p>
+            Initial costs for AI hardware, drone prototyping, and software development may be high. Making the system
+            affordable for widespread adoption in tea plantations, especially in developing regions, is a key challenge.
+        </p>
+
+        <h3>8. Weather Dependency</h3>
+        <p>
+            Tea plantations often experience varying weather conditions such as rain, wind, or fog, which can interfere
+            with flight, vision detection, and harvesting accuracy. Developing a weather-resilient system adds
+            complexity.
+        </p>
+
+        <h3>9. Regulatory and Safety Concerns</h3>
+        <p>
+            Autonomous drones operating in agricultural spaces must comply with aviation regulations and safety
+            standards. Ensuring safe deployment without legal issues requires careful planning and certifications.
+        </p>
+    </div>
+
+    <div class="section" id="public-domain">
+        <h2>Public Domain Declaration</h2>
+        <p>
+            This concept is publicly disclosed by Kasun Miuranga on May 15, 2025. It is released into the public
+            domain. Anyone is free to use or build upon this concept. No patents are claimed. <b>The goal is to
+                prevent patent restrictions on this idea so it remains free for anyone to develop, including the
+                author. </b>
+        </p>
+        <p>
+            This document serves as a record of <strong> prior art </strong> to ensure continued freedom of use.
+        </p>
+    </div>
+
+    <div class="section" id="acknowledgment">
+        <h2>Authorship and Acknowledgment</h2>
+        <p>
+            This article was generated with the assistance of ChatGPT, an AI developed by OpenAI, based on the original
+            concept provided by <strong>Kasun Miuranga</strong>.
+        </p>
+        <p>
+            All ideas and the core concept of the AI-powered tea leaf harvesting drone swarm were created by Kasun
+            Miuranga.
+            The content and formatting were organized and refined using AI tools to publicly document and preserve the
+            concept in the public domain.
+        </p>
+    </div>
+
+</body>
+
+</html>
